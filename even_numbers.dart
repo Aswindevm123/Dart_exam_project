@@ -1,10 +1,7 @@
 void main() {
-  List<int> numbers = [10, 20, 30, 40, 50];
-  int sum = 0;
-
-  for (int number in numbers) {
-    sum = sum + number;
+  for (int number = 1; number <= 20; number++) {
+    if (number % 2 == 0) {
+      print(number);
+    }
   }
-
-  print("Sum is: $sum");
 }
